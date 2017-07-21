@@ -1,0 +1,53 @@
+<html>
+    <style>
+        .img{
+            background: white;
+            border:none;
+        }
+        .headder{
+            background: lightblue;
+            height: 32px;
+        }
+    </style>
+    <div class="headder">
+        <a href="main.html">
+            <img id = "pic_1" onmousemove="fade_in(this,'pic_1')" 
+            onmouseout="fade_out(this,'pic_1')" onclick="show_dashboard()"
+            border="0" src = "https://facebook.github.io/react/img/logo.svg" width="32" height="32" gg = "pic_1"/>
+        </a>
+        <img id = "pic_2" onmousemove="fade_in(this,'pic_2')" onmouseout="fade_out(this,'pic_2')" 
+            border="0" src = "https://facebook.github.io/react/img/logo.svg" width="32" height="32"/>
+        <img id = "pic_3" onmousemove="fade_in(this,'pic_3')" onmouseout="fade_out(this,'pic_3')" 
+            border="0" src = "https://facebook.github.io/react/img/logo.svg" width="32" height="32" />      
+    </div>
+    
+    <div>
+        <p id = "text"></p>
+    </div>
+    <div>
+        <p id = "dashboard"></p>
+    </div>
+    
+    <script>
+
+        var status = ""
+        // Fade In && Face Out
+        function fade_in(x,nickname){
+            document.getElementById(nickname).style.opacity = "0.5";
+            document.getElementById("text").innerHTML= nickname;
+            
+        }
+        function fade_out(x,nickname){
+            document.getElementById(nickname).style.opacity = "1";
+            document.getElementById("text").innerHTML= "";
+        }
+
+        function show_dashboard(){
+            document.getElementById("dashboard").innerHTML = show_status ;
+        }
+        
+        function show_status(){
+            
+        }
+    </script>
+</html>
