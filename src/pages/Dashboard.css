@@ -1,0 +1,41 @@
+            .canvas {
+                background-color:lightblue;
+                padding: 40px;
+                height: 1000px;
+            }
+             .group_ext{
+                float: right;
+            }
+
+            .dashboard_ext{
+                background: lightcoral;
+                border-style: none ;
+                border-radius:5px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+                padding: 5px;
+                height: 10px;
+                width: 40px;
+            }
+
+            .dashboard{
+                background: lightcoral;
+                border-style: none ;
+                border-radius:5px;
+                margin: 40px;
+                margin-top: 10px;
+                margin-left: 0px;
+                width : 800;
+                height: 600;
+                float: left;
+                padding: 50px;
+            }
+
+            .header{
+                background: lightsalmon;
+                padding: 5px;
+                width: 270px;
+                color: pink ;
+            }
+
+           

@@ -1,8 +1,10 @@
-import React from 'react'
-
+import React from 'react';
+import "./Dashboard.css";
 class Dashboard extends React.Component{
     render(){
-        return <h1>Hi from Dashboard</h1>
+        return (
+        <div className = "canvas"/>
+        )
     }
 
 }
