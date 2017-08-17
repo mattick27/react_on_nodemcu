@@ -13,9 +13,11 @@
   padding: 20px;
   color: white;
 }
-
 .App-intro {
   font-size: large;
+}
+.red{
+  background-color: lightcoral;
 }
 
 @keyframes App-logo-spin {
